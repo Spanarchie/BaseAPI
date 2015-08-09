@@ -31,5 +31,9 @@ class FlaskTestCase(BaseTestCase):
         response = self.client.get("/", content_type='html/text')
         self.assertEqual(response.status_code, 200)
 
+
+    def test_simple(self):
+        self.assertEqual(1,1)
+
 if __name__ == '__main__':
     unittest.main()
