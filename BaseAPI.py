@@ -58,14 +58,6 @@ def crossdomain(origin=None, methods=None, headers=None,
     return decorator
 
 
-
-
-
-
-
-
-
-
 @app.route('/')
 def hello_world():
     return 'Hello crule World!'
