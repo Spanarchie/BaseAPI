@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -e
 
-PYTHONPATH=. python -m tests
+python -m tests
